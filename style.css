@@ -1,0 +1,175 @@
+/* تنظیمات کلی صفحه */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+    line-height: 1.8;
+}
+
+/* بخش بالای صفحه */
+header {
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* منوی ناوبری */
+nav {
+    background-color: #1e40af;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #facc15;
+}
+
+/* محتوای اصلی */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* کارت‌های محتوا */
+.card {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+    color: #2563eb;
+    border-bottom: 2px solid #dbeafe;
+    padding-bottom: 10px;
+}
+
+/* فهرست مهارت‌ها */
+ul {
+    padding-right: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* دکمه ارسال ایمیل */
+.button {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #1e40af;
+}
+
+/* پایین صفحه */
+footer {
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* تنظیمات نمایش در موبایل و تبلت */
+@media (max-width: 768px) {
+
+    /* سربرگ صفحه */
+    header {
+        padding: 30px 15px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    /* منوی ناوبری */
+    nav {
+        padding: 12px 5px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+        font-size: 14px;
+    }
+
+    /* محتوای اصلی */
+    main {
+        margin: 20px auto;
+        padding: 0 15px;
+    }
+
+    /* کارت‌های محتوا */
+    .card {
+        padding: 18px;
+    }
+
+    /* عنوان کارت‌ها */
+    .card h2 {
+        font-size: 20px;
+    }
+
+    /* پایین صفحه */
+    footer {
+        padding: 15px;
+        font-size: 14px;
+    }
+}
+
+/* تنظیمات نمایش در موبایل‌های کوچک */
+@media (max-width: 480px) {
+
+    header h1 {
+        font-size: 21px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    nav a {
+        margin: 5px;
+        font-size: 13px;
+    }
+
+    .card {
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    .card h2 {
+        font-size: 18px;
+    }
+
+    .button {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
